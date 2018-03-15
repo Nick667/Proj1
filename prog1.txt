@@ -16,25 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, animi!
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src='js/libs.min.js'></script>
-	<script src="js/script.js"></script>
-</body>
-</html>
-
-
-var gulp = require('gulp'),
-	uglify = require('gulp-uglifyjs'),
-	concat = require('gulp-concat'),
-	tinypng = require('gulp-tinypng'),
-	sass = require('gulp-sass'),
-	autoprefixer = require('gulp-autoprefixer');
-
-
-gulp.task('sass', function () {
-  gulp.src('./dist/sass/*.scss')
-    .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
-    .pipe(autoprefixer(['last 15 versions', '>1%']))
-    .pipe(gulp.dest('./app/css'));
-});
+	<script src="js/scrip54551454ojohyguy
 
 gulp.task('build', function () {
     gulp.src([
